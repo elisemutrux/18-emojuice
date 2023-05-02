@@ -2,9 +2,66 @@ body {
   max-width: 380px;
   margin: auto;
   background: #ddd;
+  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header{
+  background-image: url(../img/fond_titre.png);
+  color: #7db96f;
+  padding: 30px;
+  border-top: 7px solid #7db96f;
+  font-size: 20px;
+}
+
+.box-titel{
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px 55px;
+}
+
+p{
+  font-family:'Quattrocento', serif;
+}
+
+.slogan{
+  margin:0;
+}
+
+.cta-container{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta{
+  background-color: #7db96f;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  font-size: 18px;
+  padding: 10px 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.cta-light{
+  background-color: white;
+  color: #7db96f;
+}
+
+.section-intro{
+  background-color: white;
+  padding: 75px 60px;
+  display:flex;
+  flex-direction: column;
+}
+
+h2{
+  margin-top: 0;
+  font-size: 26px;
 }
