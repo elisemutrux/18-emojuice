@@ -65,3 +65,47 @@ h2{
   margin-top: 0;
   font-size: 26px;
 }
+
+.fruit-intro{
+  height:35px;
+  display:flex;
+  flex-direction:row;
+}
+
+.section-produit{
+  background-color: #7db96f;
+  padding: 75px 30px;
+}
+
+.produit{
+  background-color: #fcf7d6;
+  color: black;
+  margin: 45px 0;
+  padding: 40px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  border-radius: 20px;
+  align-items:baseline;
+  justify-content: space-between;
+}
+
+.fruit-produit{
+  height: 75px;
+}
+
+.section-contact{
+  background-color: white;
+}
+
+h3{
+  margin-top: 0;
+}
+
+footer{
+  background-color: white;
+}
+
+p{
+  margin-top:0;
+}
